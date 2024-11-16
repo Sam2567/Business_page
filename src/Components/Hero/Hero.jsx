@@ -9,7 +9,7 @@ const Hero = () => {
           Follow your passion and start the journey to fulfill your greatest
           ambitions. Graduate with deep knowledge, global perspective and
           career-ready, real-world skills. Make your own history. Study with us
-          in 2024.
+          in 2026.
         </p>
         <button className="btn">
           Explore more <img src={darkArrow} alt="darkArrow" />
