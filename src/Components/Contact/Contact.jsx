@@ -30,7 +30,26 @@ const Contact = () => {
           </li>
         </ul>
       </div>
-      <div className="contact-col"></div>
+      <div className="contact-col">
+        <form>
+          <label>Your Name</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+          <label>Phone Number</label>
+          <input
+            type="tel"
+            name="phone"
+            placeholder="Enter your phone number"
+            required
+          />
+          <label>Leave your message here</label>
+          <textarea name="message" id="" cols="30" rows="10"></textarea>
+        </form>
+      </div>
     </div>
   );
 };
