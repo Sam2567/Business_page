@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "William Jackon",
+    "university": "Adelaide University",
+    "photo": "src/assets/user-1.png",
+    "feedback": "I’d say the online lectures and tutorials are slightly challenging as you do not get to work on the problems one-on-one. It’s important to establish a functional work space at home. I was doing four subjects and two of those were entrepreneurial subjects, which are intensive and run from 9am - 5pm, finishing the subject in four sessions. It was challenging to sit for a prolonged time and concentrate. I’m sure even the professors would have had a difficult time."
+  },
+  {
+    "id": 2,
+    "name": "William Jackon",
+    "university": "Adelaide University",
+    "photo": "src/assets/user-2.png",
+    "feedback": "I decided to call my design ‘Lighthouse’ because it can direct young adults to a healthy future. By being refurbished, the old hotel transforms into a co-living house, reinvigorating a neglected building. Incorporating plant life and nature, pastel colours, and sunlight will recreate a home surrounding that will help its residents feel safe and secure. Also, incorporating spaces for creativity, like painting, woodwork, and music to help create a safe and expressive environment that helps their mental health"
+  },
+  {
+    "id": 3,
+    "name": "William Jackon",
+    "university": "Adelaide University",
+    "photo": "src/assets/user-3.png",
+    "feedback": "My lifelong goal is to promote gender equality. I have already received opportunities to attend two different forums, the Newday Leadership Summit in Adelaide and Australia Awards, and the West Asia Scholars Forum in Canberra, both emphasising gender equality and leadership. I will continue to push forward this goal by using the insights I obtained from these forums. "
+  },
+  {
+    "id": 4,
+    "name": "William Jackon",
+    "university": "Adelaide University",
+    "photo": "src/assets/user-4.png",
+    "feedback": "I studied Economics at University in Sri Lanka and knew I wanted to study Economics and Finance at post-graduate level.  I researched course options online and discovered that the University of Adelaide offered a 2-year, CFA accredited Masters in Economics and Finance which suited me perfectly. Also, a friend of mine told me that the cost of living in Adelaide was less than in other states in Australia. I was coming with my family so cost of living was an important consideration for me."
+  }
+]
