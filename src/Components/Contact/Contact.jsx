@@ -4,7 +4,32 @@ import mail_icon from "../../assets/mail-icon.png";
 import phone_icon from "../../assets/phone-icon.png";
 import location_icon from "../../assets/location-icon.png";
 import white_arrow from "../../assets/white-arrow.png";
+import React, { useEffect, useState } from "react";
 const Contact = () => {
+  const [result, setResult] = useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
   return (
     <div className="contact">
       <div className="contact-col">
@@ -32,7 +57,7 @@ const Contact = () => {
         </ul>
       </div>
       <div className="contact-col">
-        <form>
+        <form onSubmit={onsubmit}>
           <label>Your Name</label>
           <input
             type="text"
@@ -52,7 +77,7 @@ const Contact = () => {
           <button type="submit" className="btn dark-btn">
             Submit Now <img src={white_arrow} alt="" />
           </button>
-          <span></span>
+          <span>{result}</span>
         </form>
       </div>
     </div>
