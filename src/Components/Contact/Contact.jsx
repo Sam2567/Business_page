@@ -3,6 +3,7 @@ import msg_icon from "../../assets/msg-icon.png";
 import mail_icon from "../../assets/mail-icon.png";
 import phone_icon from "../../assets/phone-icon.png";
 import location_icon from "../../assets/location-icon.png";
+import white_arrow from "../../assets/white-arrow.png";
 const Contact = () => {
   return (
     <div className="contact">
@@ -48,6 +49,10 @@ const Contact = () => {
           />
           <label>Leave your message here</label>
           <textarea name="message" id="" cols="30" rows="10"></textarea>
+          <button type="submit" className="btn dark-btn">
+            Submit Now <img src={white_arrow} alt="" />
+          </button>
+          <span></span>
         </form>
       </div>
     </div>
