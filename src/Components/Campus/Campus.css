@@ -16,3 +16,13 @@
   height: 250px;
   border-radius: 10px;
 }
+
+@media (max-width: 800px) {
+  .gallery {
+    flex-direction: column;
+  }
+  .gallery img {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+}
