@@ -12,7 +12,7 @@ const Campus = () => {
     campus_photo_4,
   ];
   return (
-    <div className="campus">
+    <div className="campus" id="capmus">
       <div className="gallery">
         {photos.map((photo, index) => (
           <img key={index} src={photo} alt={`Campus photo ${index + 1}`} />
